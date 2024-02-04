@@ -1,0 +1,30 @@
+.thanks {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 25px;
+  bottom: 25px;
+  width: 30vw;
+  height: 10vh;
+  padding: 10px 10px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    img {
+      width: 30px;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
